@@ -20,4 +20,16 @@ docker rm = remove o conteinr
 
 docker rm --force = remove o conteiner a força
 
+docker run -d = irá rodar o container e não ira travar o terminal 
 
+docker run -d -P [nome do container] = irá rodar o container e irá especificar a porta para acessar o container
+
+docker run -d -p [especificar porta] [nome do container] = voce pode especificar a porta por exemplo 'docker run -d -p 3000:80 docker/voting-app-vote'
+
+docker stop $(docker container ls -q) = irá parar todos os containers que estiverem rodando 
+
+dcoker image ls = lisatr as imgs que estão disponiveis
+
+docker history [id do conteiner] = lista as camadas do conteiner
+
+docker inspect [id do conteiner] = listar as camadas do conteiner de outro formato 
