@@ -32,9 +32,13 @@ dcoker image ls = lisatr as imgs que estão disponiveis
 
 docker history [id do conteiner] = lista as camadas do conteiner
 
+<<<<<<< Updated upstream
 docker inspect [id do conteiner] = listar as camadas do conteiner de outro formato 
 
 docker login -u [nome do usuario do docker] = logar no docker 
 
 docker push [nome da img] = subir uma imagem para o docker 
+=======
+docker inspect [id do conteiner] = listar as camadas do conteiner de outro formato
+>>>>>>> Stashed changes
 
