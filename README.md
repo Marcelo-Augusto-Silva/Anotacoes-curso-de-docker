@@ -42,3 +42,9 @@ docker push [nome da img] = subir uma imagem para o docker
 docker inspect [id do conteiner] = listar as camadas do conteiner de outro formato
 >>>>>>> Stashed changes
 
+
+docker run -it --mount type=bind, source=[caminho de armazenamento],target=[pasta onde ficara salvo] = COmando que cria um conteiner com uma pasta cpmpartilhada entre o host e o conteiner 
+
+docker volume ls = listar os volumes criados 
+
+docker volume create [nome do volume] = criar novo volume
