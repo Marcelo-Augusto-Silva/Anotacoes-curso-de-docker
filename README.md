@@ -48,3 +48,5 @@ docker run -it --mount type=bind, source=[caminho de armazenamento],target=[past
 docker volume ls = listar os volumes criados 
 
 docker volume create [nome do volume] = criar novo volume
+
+docker run -it --tmpfs=/app ubuntu bash = Criar um conteiner com o tmpfs, o tmpfs serve para criar um conteiner com os arquivos temporarios 
